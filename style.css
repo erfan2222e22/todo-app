@@ -1,0 +1,53 @@
+body {
+    margin: 20px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+.todoelm2 {
+    position: relative;
+    background-color: rgba(253, 29, 29, 1);
+    border: 1px solid black;
+    width: 300px;
+    height: 50px;
+    top: 30%;
+    left: 30%;
+    border-radius: 20px;
+}
+
+.name_todo {
+    flex-grow: 1;
+    margin: 0 10px;
+}
+
+i {
+    margin: 5px;
+    position: relative;
+    left: 220px;
+
+}
+
+i:hover {
+
+    background-color: green;
+
+
+}
+
+
+p {
+    text-align: center;
+}
+
+input {
+    border-radius: 20px;
+    width: 300px;
+    height: 40px;
+    background-color: rgba(131, 58, 180, 1);
+    position: relative;
+    top: -2%;
+    left: 30%;
+    color: rgb(255, 255, 255);
+}
