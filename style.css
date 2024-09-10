@@ -5,7 +5,6 @@ body {
     background: rgb(131, 58, 180);
     background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
 }
-
 .todoelm2 {
     position: relative;
     background-color: rgba(253, 29, 29, 1);
@@ -16,26 +15,18 @@ body {
     left: 30%;
     border-radius: 20px;
 }
-
 .name_todo {
     flex-grow: 1;
     margin: 0 10px;
 }
-
 i {
     margin: 5px;
     position: relative;
     left: 220px;
-
 }
-
 i:hover {
-
     background-color: green;
-
-
 }
-
 
 p {
     text-align: center;
